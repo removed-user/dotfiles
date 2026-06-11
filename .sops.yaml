@@ -1,9 +1,0 @@
----
-keys:
-  - &ojii3 A67B85035D9A6417E8AC9B33C592D4314306 81E1
-
-creation_rules:
-  - path_regex: assets/secrets/[^/]+\.(yaml|json|env|ini)$
-    key_groups:
-      - pgp:
-          - *ojii3
